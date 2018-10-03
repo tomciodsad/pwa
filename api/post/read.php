@@ -20,8 +20,8 @@
       extract($row);
       $post_item=array(
          'id'=>$Id_produktu,
-         'title'=>$Nazwa,
-         'author'=>$Producent,
+         'Nazwa'=>$Nazwa,
+         'Producent'=>$Producent,
          'category_id'=>$Id_kategori
       );
       array_push($posts_arr['data'],$post_item);
